@@ -1,0 +1,80 @@
+# PHASE 4 – PROJECT PLANNING
+
+## 1. Introduction
+
+Project Planning defines the activities, resources, time schedule, and responsibilities required to complete the project.
+
+## 2. Project Activities
+
+The major activities are:
+
+1. Identify project idea
+2. Analyze requirements
+3. Design the system
+4. Prepare project plan
+5. Create ServiceNow table
+6. Prepare Excel spreadsheet
+7. Import employee data
+8. Create Transform Map
+9. Map source and target fields
+10. Transform the data
+11. Verify records
+12. Test the system
+13. Prepare documentation
+14. Demonstrate the project
+
+## 3. Project Schedule
+
+| Phase   | Activity                 |
+| ------- | ------------------------ |
+| Phase 1 | Brainstorming & Ideation |
+| Phase 2 | Requirement Analysis     |
+| Phase 3 | Project Design           |
+| Phase 4 | Project Planning         |
+| Phase 5 | Project Development      |
+| Phase 6 | Project Testing          |
+| Phase 7 | Project Documentation    |
+| Phase 8 | Project Demonstration    |
+
+## 4. Resources Required
+
+### Software
+
+* ServiceNow
+* Microsoft Excel
+* Web Browser
+* GitHub
+
+### Hardware
+
+* Laptop/Computer
+* Keyboard
+* Mouse
+* Internet connection
+
+## 5. Risk Identification
+
+Possible risks include:
+
+* Incorrect spreadsheet data
+* Field mapping errors
+* Duplicate records
+* Transformation errors
+* Missing fields
+* Internet connection problems
+* Configuration errors
+
+## 6. Risk Management
+
+The risks can be reduced by:
+
+* Checking spreadsheet data before import
+* Mapping fields carefully
+* Testing with sample records
+* Verifying transformed records
+* Maintaining screenshots and documentation
+* Rechecking the final output
+
+## 7. Planning Outcome
+
+The project plan provides a structured approach for completing the project phase by phase.
