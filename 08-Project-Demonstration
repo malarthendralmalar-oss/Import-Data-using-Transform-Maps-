@@ -1,0 +1,84 @@
+# PHASE 8 – PROJECT DEMONSTRATION
+
+## 1. Introduction
+
+The Project Demonstration Phase presents the completed Employee Data Import and Management System.
+
+The demonstration explains the complete project workflow from spreadsheet preparation to final employee records.
+
+## 2. Demonstration Objectives
+
+The demonstration aims to:
+
+* Explain the project idea
+* Explain the requirements
+* Explain the system design
+* Demonstrate the development process
+* Show spreadsheet data
+* Demonstrate data import
+* Demonstrate field mapping
+* Demonstrate transformation
+* Show final employee records
+* Explain the testing process
+
+## 3. Demonstration Flow
+
+The project can be demonstrated in the following order:
+
+### Step 1
+
+Introduce the project title and objective.
+
+### Step 2
+
+Show the Excel spreadsheet containing employee data.
+
+### Step 3
+
+Open ServiceNow.
+
+### Step 4
+
+Show the Employee Test table.
+
+### Step 5
+
+Show the Load Data process.
+
+### Step 6
+
+Show the Import Set.
+
+### Step 7
+
+Show the Transform Map.
+
+### Step 8
+
+Show the field mapping.
+
+### Step 9
+
+Run the transformation.
+
+### Step 10
+
+Open the Employee Test table.
+
+### Step 11
+
+Show the imported employee records.
+
+### Step 12
+
+Explain the testing and final result.
+
+## 4. Demonstration Result
+
+The demonstration shows the complete working process of the Employee Data Import and Management System.
+
+The final employee records are displayed in the target table after successful data transformation.
+
+## 5. Conclusion
+
+The demonstration provides a complete overview of the developed project and shows how employee information is imported, transformed, verified, and maintained in ServiceNow.
