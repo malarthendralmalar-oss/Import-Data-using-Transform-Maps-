@@ -1,0 +1,62 @@
+# PHASE 6 – PROJECT TESTING
+
+## 1. Introduction
+
+Testing is performed to verify whether the Employee Data Import and Management System works correctly.
+
+The main purpose is to identify errors and verify that employee data is imported correctly.
+
+## 2. Test Objectives
+
+The testing objectives are:
+
+* Verify spreadsheet upload
+* Verify import set creation
+* Verify field mapping
+* Verify transformation
+* Verify employee records
+* Identify errors
+* Verify final output
+
+## 3. Test Cases
+
+| Test Case | Test Description         | Expected Result                      |
+| --------- | ------------------------ | ------------------------------------ |
+| TC01      | Upload Excel file        | File should upload successfully      |
+| TC02      | Create Import Set        | Import Set should be created         |
+| TC03      | Create Transform Map     | Transform Map should be available    |
+| TC04      | Map Employee ID          | Field should map correctly           |
+| TC05      | Map Employee Name        | Field should map correctly           |
+| TC06      | Map Department           | Field should map correctly           |
+| TC07      | Map Email                | Field should map correctly           |
+| TC08      | Map Location             | Field should map correctly           |
+| TC09      | Transform data           | Records should be transferred        |
+| TC10      | Open Employee Test table | Employee records should be displayed |
+
+## 4. Test Result
+
+The imported employee records are checked against the original spreadsheet.
+
+The Employee ID, Employee Name, Department, Email, and Location are verified.
+
+## 5. Error Handling
+
+If an error occurs during importing or transformation, the configuration is checked and corrected.
+
+Possible errors include:
+
+* Incorrect field mapping
+* Missing values
+* Incorrect data type
+* Duplicate data
+* Transformation failure
+
+## 6. Final Testing
+
+After corrections, the employee records are checked again.
+
+The final output should match the expected employee information.
+
+## 7. Testing Conclusion
+
+Testing confirms that the major components of the employee data import process work as expected and that the imported records can be verified in the target table.
