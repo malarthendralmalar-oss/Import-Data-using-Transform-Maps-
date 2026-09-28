@@ -1,0 +1,185 @@
+# PHASE 5 – PROJECT DEVELOPMENT
+
+## 1. Introduction
+
+The Project Development Phase is the main implementation phase of the Employee Data Import and Management System.
+
+In this phase, the requirements and design identified in the previous phases are implemented using ServiceNow. Employee information is prepared in spreadsheet format, imported into ServiceNow, mapped to the target fields, transformed, and verified.
+
+---
+
+## 2. Development Environment
+
+The project was developed using the following tools and technologies:
+
+* ServiceNow Developer Instance
+* Microsoft Excel / Spreadsheet
+* Web Browser
+* Import Sets
+* Transform Maps
+* ServiceNow Tables
+* GitHub
+
+---
+
+## 3. Creating the Employee Test Table
+
+A custom table named **Employee Test** was created in ServiceNow to store employee information.
+
+The table contains the following fields:
+
+| Field Name    | Purpose                                   |
+| ------------- | ----------------------------------------- |
+| Employee ID   | Stores the unique employee identification |
+| Employee Name | Stores the employee name                  |
+| Department    | Stores the employee department            |
+| Email         | Stores the employee email                 |
+| Location      | Stores the employee location              |
+
+The Employee Test table acts as the target table for the imported employee information.
+
+### Screenshot
+
+**Figure 5.1: Employee Test table created in ServiceNow**
+
+📸 **Screenshot:** Employee Test table / table configuration screen.
+
+---
+
+## 4. Preparing the Employee Spreadsheet
+
+An Excel spreadsheet was prepared as the source file for the project.
+
+The spreadsheet contains employee information in a structured format.
+
+Example:
+
+| Employee ID | Employee Name | Department | Email                                         | Location   |
+| ----------- | ------------- | ---------- | --------------------------------------------- | ---------- |
+| SB-0001     | Arun Kumar    | IT         | [arun@example.com](mailto:arun@example.com)   | Chennai    |
+| SB-0002     | Priya Devi    | HR         | [priya@example.com](mailto:priya@example.com) | Coimbatore |
+
+The first row contains the column headers.
+
+### Screenshot
+
+**Figure 5.2: Employee data prepared in Excel spreadsheet**
+
+📸 **Screenshot:** Open the Excel file and show the complete employee data.
+
+---
+
+## 5. Loading Data into ServiceNow
+
+The employee spreadsheet was imported into ServiceNow using the **Load Data** functionality.
+
+The import process allows data from the spreadsheet to be loaded into ServiceNow for further processing.
+
+The following information is provided during the loading process:
+
+* Import Set Table
+* Source of Import
+* Excel file
+* Sheet number
+* Header row
+
+### Screenshot
+
+**Figure 5.3: Loading employee data into ServiceNow**
+
+📸 **Screenshot:** Load Data page showing the selected Excel file.
+
+---
+
+## 6. Import Set
+
+After loading the spreadsheet, the employee information is stored in an Import Set.
+
+The Import Set acts as a temporary staging area for the imported data before it is transferred to the target Employee Test table.
+
+The imported records can be reviewed before transformation.
+
+### Screenshot
+
+**Figure 5.4: Imported employee data in the Import Set**
+
+📸 **Screenshot:** Import Set table / imported records.
+
+---
+
+## 7. Creating the Transform Map
+
+A Transform Map was created to define how the imported employee data should be transferred from the source Import Set table to the target Employee Test table.
+
+The Transform Map connects the source data with the target table.
+
+The important configuration includes:
+
+* Source table
+* Target table
+* Transform Map name
+* Field mappings
+
+### Screenshot
+
+**Figure 5.5: Transform Map configuration**
+
+📸 **Screenshot:** Transform Map showing source table and target table.
+
+---
+
+## 8. Field Mapping
+
+The source fields from the imported spreadsheet were mapped to the corresponding fields in the Employee Test table.
+
+The field mapping is as follows:
+
+| Source Field  | Target Field  |
+| ------------- | ------------- |
+| Employee ID   | Employee ID   |
+| Employee Name | Employee Name |
+| Department    | Department    |
+| Email         | Email         |
+| Location      | Location      |
+
+Correct field mapping ensures that the employee information is transferred to the appropriate fields.
+
+### Screenshot
+
+**Figure 5.6: Field mapping between source and target fields**
+
+📸 **Screenshot:** Mapping Assist / Field Maps screen.
+
+---
+
+## 9. Mapping Assist
+
+Mapping Assist can be used to connect the source fields with the corresponding target fields.
+
+Each source field is matched with its appropriate target field.
+
+For example:
+
+```text
+Employee ID     → Employee ID
+Employee Name   → Employee Name
+Department      → Department
+Email           → Email
+Location        → Location
+```
+
+### Screenshot
+
+**Figure 5.7: Mapping Assist configuration**
+
+📸 **Screenshot:** Mapping Assist showing the mapped fields.
+
+---
+
+## 10. Transforming the Data
+
+After completing the field mapping, the imported data is transformed.
+
+During transformation, ServiceNow processes the records from the Import Set and transfers them into the Employee Test target table according to the Transform Map configuration.
+
+The transformation process is checked for errors and successful record creation
