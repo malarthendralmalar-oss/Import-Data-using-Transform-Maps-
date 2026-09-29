@@ -1,0 +1,171 @@
+# PHASE 1 – BRAINSTORMING AND IDEATION PHASE
+
+## Project Name
+
+**Employee Data Import and Management System Using ServiceNow**
+
+## Project Idea
+
+The main idea of this project is to import employee information from an external spreadsheet into ServiceNow and manage the imported employee records in a structured manner.
+
+The project uses ServiceNow Import Sets and Transform Maps to transfer employee data from the spreadsheet into a custom Employee Test table.
+
+The system helps to reduce manual data entry and provides an organized way to store and manage employee information.
+
+## Problem Statement
+
+Managing employee information manually can be time-consuming and may lead to data entry errors.
+
+When employee data is maintained in spreadsheets, importing and managing the information in ServiceNow can become difficult without a proper data import process.
+
+Therefore, a systematic method is required to import employee information from a spreadsheet into ServiceNow accurately and efficiently.
+
+## Proposed Solution
+
+The proposed solution is to create a custom **Employee Test** table in ServiceNow and import employee information from an Excel spreadsheet.
+
+The project uses:
+
+* Excel / Spreadsheet
+* ServiceNow Import Sets
+* Transform Maps
+* Mapping Assist
+* Custom Employee Test Table
+* Field Mapping
+* Data Transformation
+
+The imported employee information is mapped from the source fields to the corresponding target fields.
+
+## Main Objective
+
+The main objective of the project is to demonstrate how employee data can be imported from an external spreadsheet into ServiceNow using Import Sets and Transform Maps.
+
+The project aims to:
+
+* Import employee information into ServiceNow.
+* Reduce manual data entry.
+* Store employee information in a structured table.
+* Map source fields to target fields.
+* Transform imported data into the target table.
+* Verify the imported employee records.
+* Manage employee information efficiently.
+
+## Employee Data Idea
+
+The project uses employee information as the source data.
+
+The employee data is initially prepared in an Excel spreadsheet.
+
+The spreadsheet contains the following fields:
+
+* Employee ID
+* Employee Name
+* Department
+* Email
+* Location
+
+The first row of the spreadsheet contains the column headers.
+
+## Table Idea
+
+A custom table named **Employee Test** is created in ServiceNow to store the imported employee information.
+
+### Table Name:
+
+**u_employee_test**
+
+The table contains fields such as:
+
+* Employee ID
+* Employee Name
+* Department
+* Email
+* Location
+
+The Employee Test table acts as the **target table** for the imported employee data.
+
+## Data Import Idea
+
+The employee spreadsheet is imported into ServiceNow using the **Load Data** functionality.
+
+The imported data is initially stored in an **Import Set table**.
+
+The Import Set acts as a temporary staging area before the data is transferred to the Employee Test table.
+
+The basic data flow is:
+
+```text
+Excel Spreadsheet
+        ↓
+    Load Data
+        ↓
+   Import Set
+        ↓
+  Transform Map
+        ↓
+  Field Mapping
+        ↓
+ Employee Test Table
+```
+
+## Transform Map Idea
+
+A **Transform Map** is created to transfer employee information from the Import Set table to the Employee Test table.
+
+The Transform Map defines the relationship between the source fields and target fields.
+
+The mapping is planned as follows:
+
+| Source Field  | Target Field  |
+| ------------- | ------------- |
+| Employee ID   | Employee ID   |
+| Employee Name | Employee Name |
+| Department    | Department    |
+| Email         | Email         |
+| Location      | Location      |
+
+Correct field mapping ensures that the employee information is transferred to the appropriate fields.
+
+## Data Validation Idea
+
+After the transformation process, the imported records are verified in the Employee Test table.
+
+The project checks whether:
+
+* Employee records are imported successfully.
+* Employee ID is stored correctly.
+* Employee Name is stored correctly.
+* Department is stored correctly.
+* Email is stored correctly.
+* Location is stored correctly.
+
+## Data Management Idea
+
+The project focuses on maintaining employee information in a structured ServiceNow table.
+
+Using Import Sets and Transform Maps provides a systematic data import process and reduces errors caused by manually entering each employee record.
+
+## Expected Benefits
+
+* Reduces manual data entry.
+* Saves time during employee data import.
+* Provides structured employee data management.
+* Ensures proper field mapping.
+* Helps reduce data entry errors.
+* Demonstrates practical use of Import Sets.
+* Demonstrates practical use of Transform Maps.
+* Provides better understanding of ServiceNow data import functionality.
+
+## Expected Outcome
+
+The expected outcome is a ServiceNow implementation where employee information from an Excel spreadsheet is successfully imported into the **Employee Test** table.
+
+The project demonstrates how Import Sets, Transform Maps, and field mapping can be used together to transfer external employee data into ServiceNow.
+
+## Conclusion
+
+The Brainstorming and Ideation phase identifies the need for an organized method to import and manage employee information in ServiceNow.
+
+The proposed project uses **Excel, Import Sets, Transform Maps, Mapping Assist, and the Employee Test table** to implement the employee data import process.
+
+The project will be developed, tested, documented, and demonstrated in the following project phases.
