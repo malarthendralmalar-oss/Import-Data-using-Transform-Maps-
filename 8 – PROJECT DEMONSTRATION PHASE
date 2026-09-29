@@ -1,0 +1,213 @@
+# PHASE 8 – PROJECT DEMONSTRATION PHASE
+
+## Project Name
+
+**Employee Data Import and Management System Using ServiceNow**
+
+## 1. Introduction
+
+The Project Demonstration Phase presents the complete working process of the Employee Data Import and Management System.
+
+A project demonstration video is prepared to explain the project purpose, benefits, implementation process, and final output.
+
+## 2. Project Purpose
+
+The purpose of this project is to demonstrate how employee information can be imported from an Excel spreadsheet into ServiceNow using Import Sets and Transform Maps.
+
+The project provides a systematic method for transferring employee information from an external spreadsheet to the Employee Test table.
+
+## 3. Project Benefits
+
+The project provides the following benefits:
+
+* Reduces manual data entry.
+* Saves time during employee data import.
+* Provides structured employee data management.
+* Reduces data entry errors.
+* Provides proper field mapping.
+* Demonstrates the use of ServiceNow Import Sets.
+* Demonstrates the use of ServiceNow Transform Maps.
+* Helps in managing employee records efficiently.
+
+## 4. Demonstration Environment
+
+The project demonstration is performed using the following:
+
+* ServiceNow Developer Instance
+* Microsoft Excel / Spreadsheet
+* Web Browser
+* Import Sets
+* Transform Maps
+* Employee Test Table
+
+## 5. Project Demonstration Process
+
+The complete project demonstration follows the steps given below.
+
+### Step 1 – Project Introduction
+
+The project name and basic purpose of the project are introduced in the demonstration video.
+
+**Project Name:**
+
+Employee Data Import and Management System Using ServiceNow
+
+### Step 2 – Show Employee Spreadsheet
+
+The Excel spreadsheet containing employee information is opened and explained.
+
+The spreadsheet contains:
+
+* Employee ID
+* Employee Name
+* Department
+* Email
+* Location
+
+📸 **SCREENSHOT – Figure 8.1**
+
+Paste your actual Excel spreadsheet screenshot here.
+
+**Figure 8.1: Employee Data Prepared in Excel Spreadsheet**
+
+### Step 3 – Show Employee Test Table
+
+The Employee Test table created in ServiceNow is opened.
+
+The table contains the required employee fields for storing the imported information.
+
+📸 **SCREENSHOT – Figure 8.2**
+
+Paste your actual Employee Test table screenshot here.
+
+**Figure 8.2: Employee Test Table in ServiceNow**
+
+### Step 4 – Load Employee Data
+
+The Load Data functionality in ServiceNow is demonstrated.
+
+The Excel file is selected and the required import details are provided.
+
+📸 **SCREENSHOT – Figure 8.3**
+
+Paste your actual Load Data screen screenshot here.
+
+**Figure 8.3: Loading Employee Data into ServiceNow**
+
+### Step 5 – Show Import Set
+
+After loading the spreadsheet, the imported employee records are displayed in the Import Set.
+
+The Import Set acts as a temporary staging area before the data is transferred to the target table.
+
+📸 **SCREENSHOT – Figure 8.4**
+
+Paste your actual Import Set records screenshot here.
+
+**Figure 8.4: Employee Records in Import Set**
+
+### Step 6 – Show Transform Map
+
+The Transform Map is opened and the source and target tables are explained.
+
+The source table contains the imported employee information and the target table is the Employee Test table.
+
+📸 **SCREENSHOT – Figure 8.5**
+
+Paste your actual Transform Map screenshot here.
+
+**Figure 8.5: Transform Map Configuration**
+
+### Step 7 – Show Field Mapping
+
+The source fields are mapped to the corresponding target fields.
+
+The mapping is:
+
+```text id="2b5i9a"
+Employee ID     → Employee ID
+Employee Name   → Employee Name
+Department      → Department
+Email           → Email
+Location        → Location
+```
+
+📸 **SCREENSHOT – Figure 8.6**
+
+Paste your actual Field Mapping / Mapping Assist screenshot here.
+
+**Figure 8.6: Field Mapping Between Source and Target Fields**
+
+### Step 8 – Transform the Data
+
+The imported employee data is transformed using the Transform Map.
+
+ServiceNow processes the imported records and transfers them to the Employee Test table.
+
+📸 **SCREENSHOT – Figure 8.7**
+
+Paste your successful transformation/result screenshot here.
+
+**Figure 8.7: Successful Transformation of Employee Data**
+
+### Step 9 – Show Final Output
+
+After the transformation is completed, the Employee Test table is opened.
+
+The final employee records are displayed and verified.
+
+📸 **SCREENSHOT – Figure 8.8**
+
+Paste your actual final Employee Test records screenshot here.
+
+**Figure 8.8: Final Employee Records in Employee Test Table**
+
+## 6. Demo Video Explanation
+
+The demonstration video includes the following:
+
+1. Project Name
+2. Project Purpose
+3. Project Benefits
+4. Employee Spreadsheet
+5. Employee Test Table
+6. Load Data Process
+7. Import Set
+8. Transform Map
+9. Field Mapping
+10. Data Transformation
+11. Final Output
+
+The student provides a voice-over explanation while demonstrating the project through screen sharing.
+
+## 7. Final Output
+
+The final output of the project is the successful transfer of employee information from the Excel spreadsheet into the Employee Test table in ServiceNow.
+
+The imported employee records are verified to ensure that the data is stored correctly in the corresponding fields.
+
+## 8. Demo Video Upload
+
+The completed project demonstration video is uploaded to Google Drive.
+
+The Google Drive sharing permission is set to:
+
+**Anyone with the link → Viewer**
+
+The Google Drive link is submitted along with the GitHub repository link.
+
+## 9. GitHub Submission
+
+All project files and documents are maintained in the GitHub repository.
+
+The repository is made public so that the project files can be accessed through the repository link.
+
+The project files are organized according to the eight project phases.
+
+## 10. Conclusion
+
+The Project Demonstration Phase presents the complete working process of the Employee Data Import and Management System.
+
+The demonstration shows how employee data is prepared in a spreadsheet, imported into ServiceNow, stored in an Import Set, mapped using a Transform Map, transformed, and finally stored in the Employee Test table.
+
+The project successfully demonstrates the use of ServiceNow Import Sets and Transform Maps for employee data management.
