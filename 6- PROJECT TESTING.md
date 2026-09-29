@@ -41,3 +41,4 @@ Verify that:
 ![Test flow](<Screenshot 2026-09-28 174247.png>)
 The project document demonstrates inserted, updated and ignored records through Transform History after testing repeated imports.
 ![Test flow](<Screenshot 2026-09-28 175010.png>)
+![Test flow](<Screenshot 2026-09-28 193123.png>)
