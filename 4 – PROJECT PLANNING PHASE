@@ -1,0 +1,107 @@
+# PHASE 4 – PROJECT PLANNING PHASE
+
+## Project Name
+
+**Employee Data Import and Management System Using ServiceNow**
+
+## 1. Introduction
+
+The Project Planning Phase defines the activities, responsibilities, resources, and schedule required to complete the Employee Data Import and Management System.
+
+The project is planned in a sequence from data preparation to final verification and documentation.
+
+## 2. Project Activities
+
+The major activities of the project are:
+
+1. Prepare employee spreadsheet.
+2. Create Employee Test table.
+3. Load employee data into ServiceNow.
+4. Create Import Set.
+5. Create Transform Map.
+6. Configure field mappings.
+7. Transform employee data.
+8. Verify imported records.
+9. Perform testing.
+10. Prepare project documentation.
+11. Record project demonstration.
+
+## 3. Project Schedule
+
+| Phase   | Activity                   | Status      |
+| ------- | -------------------------- | ----------- |
+| Phase 1 | Brainstorming and Ideation | Completed   |
+| Phase 2 | Requirement Analysis       | Completed   |
+| Phase 3 | Project Design             | Completed   |
+| Phase 4 | Project Planning           | Completed   |
+| Phase 5 | Project Development        | In Progress |
+| Phase 6 | Project Testing            | Planned     |
+| Phase 7 | Project Documentation      | Planned     |
+| Phase 8 | Project Demonstration      | Planned     |
+
+📸 **SCREENSHOT – Figure 4.1**
+
+Take a screenshot of this planning table after putting it in Word/Excel.
+
+**Figure 4.1: Project Activity Schedule**
+
+## 4. Task Planning
+
+| Task             | Description                           |
+| ---------------- | ------------------------------------- |
+| Data Preparation | Prepare employee information in Excel |
+| Table Creation   | Create Employee Test table            |
+| Data Loading     | Load spreadsheet into ServiceNow      |
+| Import Set       | Store imported data temporarily       |
+| Transform Map    | Connect source and target tables      |
+| Field Mapping    | Map source fields to target fields    |
+| Transformation   | Transfer data to Employee Test        |
+| Verification     | Check imported records                |
+| Testing          | Test the complete import process      |
+| Documentation    | Prepare project documents             |
+| Demonstration    | Record project demo video             |
+
+## 5. Resource Planning
+
+The following resources are required:
+
+* ServiceNow Developer Instance
+* Computer/Laptop
+* Internet Connection
+* Excel Spreadsheet
+* Web Browser
+* GitHub
+* Project Documentation
+
+## 6. Team Responsibility
+
+| Activity               | Responsible Member |
+| ---------------------- | ------------------ |
+| Requirement Analysis   | Team Member        |
+| Project Design         | Team Member        |
+| ServiceNow Development | Team Member        |
+| Testing                | Team Member        |
+| Documentation          | Team Member        |
+| Demonstration          | All Team Members   |
+
+**Note:** Replace "Team Member" with your actual names if required.
+
+## 7. Risk Planning
+
+| Risk                         | Solution                       |
+| ---------------------------- | ------------------------------ |
+| Incorrect spreadsheet format | Verify column headers          |
+| Incorrect field mapping      | Check source and target fields |
+| Transformation error         | Review Transform Map           |
+| Missing records              | Verify Import Set              |
+| Incorrect final data         | Check Employee Test table      |
+
+## 8. Expected Planning Outcome
+
+The project activities, resources, responsibilities, and possible risks are identified and organized to ensure that the project can be completed systematically.
+
+## 9. Conclusion
+
+The Project Planning Phase provides a structured plan for completing the Employee Data Import and Management System.
+
+The planned activities will be followed during project development, testing, documentation, and demonstration.
