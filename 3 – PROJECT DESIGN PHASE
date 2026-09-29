@@ -1,0 +1,136 @@
+# PHASE 3 – PROJECT DESIGN PHASE
+
+## Project Name
+
+**Employee Data Import and Management System Using ServiceNow**
+
+## 1. Introduction
+
+The Project Design Phase defines the structure, workflow, data flow, and components of the Employee Data Import and Management System.
+
+The system is designed to import employee information from an Excel spreadsheet into ServiceNow using Import Sets and Transform Maps.
+
+## 2. System Architecture
+
+The system follows a structured data import architecture.
+
+```text
+Employee
+Spreadsheet
+     ↓
+Load Data
+     ↓
+Import Set Table
+     ↓
+Transform Map
+     ↓
+Field Mapping
+     ↓
+Employee Test Table
+     ↓
+Employee Records
+```
+
+📸 **SCREENSHOT – Figure 3.1**
+
+Create this architecture diagram in Word/PowerPoint and take a screenshot, or directly place the diagram in the document.
+
+**Figure 3.1: System Architecture of Employee Data Import System**
+
+## 3. Data Flow Design
+
+The data flows from the external spreadsheet to the target ServiceNow table.
+
+```text
+Excel Spreadsheet
+       ↓
+   Load Data
+       ↓
+   Import Set
+       ↓
+ Transform Map
+       ↓
+ Field Mapping
+       ↓
+ Employee Test
+```
+
+📸 **SCREENSHOT – Figure 3.2**
+
+**Figure 3.2: Data Flow of Employee Information**
+
+## 4. Workflow Design
+
+The project follows the following workflow:
+
+```text
+Start
+  ↓
+Prepare Employee Spreadsheet
+  ↓
+Load Data into ServiceNow
+  ↓
+Create Import Set
+  ↓
+Create Transform Map
+  ↓
+Map Source and Target Fields
+  ↓
+Transform Data
+  ↓
+Verify Employee Records
+  ↓
+End
+```
+
+📸 **SCREENSHOT – Figure 3.3**
+
+**Figure 3.3: Project Workflow**
+
+## 5. Database / Table Design
+
+The Employee Test table is designed to store the imported employee information.
+
+| Field Name    | Description                    |
+| ------------- | ------------------------------ |
+| Employee ID   | Unique employee identification |
+| Employee Name | Name of the employee           |
+| Department    | Employee department            |
+| Email         | Employee email address         |
+| Location      | Employee location              |
+
+📸 **SCREENSHOT – Figure 3.4**
+
+Open the **Employee Test table configuration** in ServiceNow and take a screenshot showing the fields.
+
+**Figure 3.4: Employee Test Table Design**
+
+## 6. Field Mapping Design
+
+The source and target fields are designed to have the following mapping:
+
+| Source Field  | Target Field  |
+| ------------- | ------------- |
+| Employee ID   | Employee ID   |
+| Employee Name | Employee Name |
+| Department    | Department    |
+| Email         | Email         |
+| Location      | Location      |
+
+📸 **SCREENSHOT – Figure 3.5**
+
+Take the screenshot from **Transform Map → Field Maps / Mapping Assist**.
+
+**Figure 3.5: Source and Target Field Mapping**
+
+## 7. Design Summary
+
+The design provides a clear flow for transferring employee information from the spreadsheet to the Employee Test table.
+
+The design ensures that each source field is mapped to its corresponding target field before the data is transformed.
+
+## 8. Conclusion
+
+The Project Design Phase defines the architecture, workflow, data flow, table structure, and field mapping required for the Employee Data Import and Management System.
+
+The design will be implemented in the Project Development Phase.
